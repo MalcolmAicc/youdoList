@@ -1,0 +1,68 @@
+.el-popover.teshu.el-popper{
+    min-width: 60px;
+}
+
+.pop > ul > li{
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.pop > ul > li:hover{
+    background-color: #ebf0f7;
+}
+
+.el-dialog{
+    border-radius: 20px;
+}
+
+.el-textarea{
+    /* height: 60px; */
+    outline: none;
+    --el-input-focus-border-color:var(--el-border-color);
+}
+
+.el-textarea:hover{
+    border: none;
+}
+
+.el-textarea__inner{
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 0;
+    border-radius: 20px;
+}
+
+.el-popover.el-popper{
+    border-radius: 20px;
+}
+
+.el-input__wrapper{
+    border-radius: 20px;
+    outline: none;
+    --el-input-focus-border-color:var(--el-border-color);
+}
+
+.el-tag{
+    color: white;
+    --el-tag-hover-color: none;
+    border: none;
+}
+
+.el-tag .el-tag__close{
+    color: inherit;
+    transition: all 0.5s;
+    font-weight: 400;
+}
+
+.el-tag .el-tag__close:hover{
+    opacity: 0.5;
+}
+
+.el-tag__content{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
